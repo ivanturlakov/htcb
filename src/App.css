@@ -1,0 +1,117 @@
+html, body, #root {
+    height: 100%;
+    min-height: 100%;
+}
+
+.App {
+    min-height: calc(100% - 56px);
+}
+
+.HomeHero {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    z-index: 9;
+    transform: translate(-50%, -50%);
+}
+
+.HomeHero .jumbotron {
+    background: rgb(0, 0, 0, 0.8);
+} 
+
+.delete-item {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.edit-item {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+.App .carousel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.HomeApp {
+    background: url("./img/home-bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bikeBuildView {
+    min-height: 45vh;
+    text-align: center;
+}
+
+.needsCard {
+    margin-bottom: 2rem;
+    border: none !important;
+}
+
+.google-map-wrapper {
+    position: absolute;
+    width: 100%;
+    min-height: calc(100% - 56px);
+}
+
+.bikeMapPoint {
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #000000;
+}
+
+.needsCard .bike-results {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.25rem;
+}
+
+.needsCard .bike-results h5 {
+    display: block;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+.result-use {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    text-align: right;
+    z-index: 1;   
+}
+
+.img-placeholder img {
+    width: 100%;
+    height: auto;
+    -webkit-filter: blur(15px); /* Safari 6.0 - 9.0 */
+    filter: blur(15px);
+}
+
+.PrintClass {
+    padding: 4rem;
+}
+
+.PrintClass .PrintHide {
+    display: none;
+}

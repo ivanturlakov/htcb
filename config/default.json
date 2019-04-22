@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://ivan:778077@howto-c6h2m.mongodb.net/howto?retryWrites=true",
+    "jwtSecret": "howto_myJwtSecret"
+}
