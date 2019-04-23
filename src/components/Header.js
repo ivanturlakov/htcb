@@ -8,7 +8,7 @@ import {
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';  
 import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
-// import RegisterModal from './auth/RegisterModal';
+import RegisterModal from './auth/RegisterModal';
 import LoginModal from './auth/LoginModal';
 import Logout from './auth/Logout';
 
@@ -49,7 +49,7 @@ class Header extends Component {
 
     const guestLinks = (
       <Fragment>
-          {/* <RegisterModal /> */}
+          <RegisterModal />
           <LoginModal />
       </Fragment>
     );
