@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://ivan:778077@howto-c6h2m.mongodb.net/howto?retryWrites=true",
+    "mongoURI": "mongodb://ivan:778077t@ds117145.mlab.com:17145/heroku_nc0w3fwf",
     "jwtSecret": "howto_myJwtSecret"
 }
