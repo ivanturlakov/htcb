@@ -49,7 +49,7 @@ class Header extends Component {
 
     const guestLinks = (
       <Fragment>
-          {/* <RegisterModal /> */}
+          <RegisterModal />
           <LoginModal />
       </Fragment>
     );
