@@ -14,7 +14,7 @@ export class Logout extends Component {
     return (
       <Fragment>
         <NavLink onClick={this.props.logout} href='#'>
-          <MdDirectionsWalk />Logout
+          <MdDirectionsWalk /> Logout
         </NavLink>
       </Fragment>
     );

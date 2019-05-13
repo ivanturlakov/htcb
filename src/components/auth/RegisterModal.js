@@ -84,7 +84,7 @@ class RegisterModal extends Component {
     return (
       <div>
         <NavLink onClick={this.toggle} href='#'>
-          <MdFingerprint />Register
+          <MdFingerprint /> Register
         </NavLink>
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
