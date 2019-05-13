@@ -11,6 +11,7 @@ import {
   NavLink,
   Alert
 } from 'reactstrap';
+import { MdFingerprint } from "react-icons/md";
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { register } from '../../actions/authActions';
@@ -83,7 +84,7 @@ class RegisterModal extends Component {
     return (
       <div>
         <NavLink onClick={this.toggle} href='#'>
-          Register
+          <MdFingerprint />Register
         </NavLink>
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
